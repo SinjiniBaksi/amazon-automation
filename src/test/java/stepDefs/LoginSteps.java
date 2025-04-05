@@ -7,6 +7,7 @@ import io.cucumber.java.en.When;
 public class LoginSteps {
     @Given("I am on Amazon homepage")
     public void i_am_on_amazon_homepage() {
+        System.out.println("I am on Amazon homepage");
 
     }
 

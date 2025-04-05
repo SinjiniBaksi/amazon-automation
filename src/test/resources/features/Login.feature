@@ -1,9 +1,11 @@
 Feature: Login to Amazon Application
-    Scenario: Successful login with valid credentials
-  Given I am on Amazon homepage
-  When I click on Sign in button
-  And I enter a valid email and password
-  Then I am logged in successfully
+
+  @Login
+  Scenario: Successful login with valid credentials
+    Given I am on Amazon homepage
+    When I click on Sign in button
+    And I enter a valid email and password
+    Then I am logged in successfully
 #        Given I am on the Amazon login page
 #        When I enter a valid email and password
 #        And I click the login button
